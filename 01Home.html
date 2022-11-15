@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Doces e Salgados">
+    <meta name="keywords" content="Doces, Salgados">
+    <meta name="author" content="Gabriel Machado">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Gabs & Gus Foods</title>
+
+    <link rel="stylesheet" href="01Home.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="header__logo" href="01Home.html">
+            <img src="Logo.gif" alt="Logo" width="100px" height="100px">
+        </a>
+        <ul class="header__menu">
+            <li class="header__menu-lista"><a href="01Home.html">Início</a></li>    
+            <li class="header__menu-lista"><a href="02Kits.html">Kits</a></li>
+            <li class="header__menu-lista"><a href="04Salgados.html">Salgados</a></li>
+            <li class="header__menu-lista"><a href="03Doces.html">Doces</a></li>
+            <li class="header__menu-lista"><a href="05Contato.html">Contato</a></li>
+        </ul>
+    </header>
+    
+    <div class="gridContainer">
+
+        <section class="kits">
+            <h2 class="kits__titulo">Kits e Promoções</h2>
+            <div class="kits__imagem"> 
+                <a href="02Kits.html">
+                    <img class="kits__imagem-detalhe" src="01-Home-BannerPrincipal.jpg" alt="Kits de Festa" width="560" height="320">
+                </a>
+            </div>
+        </section>
+
+        <section class="titulo">
+            <h2 class="banner__titulo">Salgados & Doces</h2>
+        </section>
+
+        <section class="doce">
+            <div class="banner__imagem">   
+                <a href="03Doces.html">
+                    <img class="banner__imagem--detalhe" src="01-Home-BannerDoce.jpg" alt="Doces" width="380" height="320">
+                </a>
+            </div>
+        </section>
+
+        <section class="salgado">
+            <div class="banner__imagem">   
+                <a href="04Salgados.html">
+                    <img class="banner__imagem--detalhe" src="01-Home-BannerSalgado.jpg" alt="Salgados" width="380" height="320">
+                </a>
+            </div>
+        </section>
+
+        <section class="form">
+            <h2 class="kits__titulo">Peça já seu kit de festa:</h2>
+            <form >
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco"><br><br>
+                <label for="tel">Telefone:</label>
+                <input type="text" id="tel" name="tel"><br><br>
+                <label for="pedido">Seu pedido:</label>
+                <input type="text" id="pedido" name="pedido"><br><br>        
+                <input type="checkbox" name="acepta" value="1" /><div>Aceita receber promoções da nossa loja por Whatsapp</div> 
+                <br>
+                <input class="botao__texto" type="submit" value="Enviar formulário de pedido"/>
+            </form>
+        </section>
+
+        <section class="footer">
+            <div class="centralizar">
+
+                <h2>Veja novidades nas nossas Redes:</h2>
+                <br>
+                <ul>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com">Tik Tok</a></li>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                </ul>
+    
+            </div>
+
+        <br><br>
+        <hr/>
+        <footer class="footer">2022 Gabs & Gus Foods - Todos os direitos reservados</footer>
+        </section>
+
+    </div>
+                       
+
+
+
+
+    <!-- CÓDIGO ANTIGO
+
+        --HEADER--
+
+        <header class="header">
+            <section class="header__logo">
+                Gabs & Gus Foods
+            </section>
+            <ul class="header__menu">
+                <li class="header__menu--lista"><a href="01Home.html">Início</a></li>    
+                <li class="header__menu--lista"><a href="02Kits.html">Kits</a></li>
+                <li class="header__menu--lista"><a href="04Salgados.html">Salgados</a></li>
+                <li class="header__menu--lista"><a href="03Doces.html">Doces</a></li>
+                <li class="header__menu--lista"><a href="05Contato.html">Contato</a></li>
+            </ul>
+        </header>    
+
+        --BANNER PRINCIPAL--
+
+        <br><br>
+
+        <section class="banner1">
+            <h2 class="banner__titulo">Kits e Promoções</h2>
+            <div class="banner__imagem"> 
+                <a href="02Kits.html">
+                    <img class="banner__imagem--detalhe" src="01-Home-BannerPrincipal.jpg" alt="Kits de Festa" width="480" height="320">
+                </a>
+            </div>
+        </section>
+        
+        --BANNERS SECUNDARIOS--
+
+        <br>
+
+        <section class="banner2">
+            <h2 class="banner__titulo">Salgados & Doces</h2>
+            <div class="banner__imagem">   
+                <a href="04Salgados.html">
+                    <img class="banner__imagem--detalhe" src="01-Home-BannerSalgado.jpg" alt="Salgados" width="220" height="320">
+                </a>
+                <a href="03Doces.html">
+                    <img class="banner__imagem--detalhe" src="01-Home-BannerDoce.jpg" alt="Doces" width="220" height="320">
+                </a>
+            </div>
+        </section>
+
+        --BOTÃO DE CONTATO--
+
+        <br><br><br>
+
+        <div class="botao">
+            <a class="botao__texto" href="05Contato.html">Faça já o seu pedido!</a>
+        </div>
+
+        --LOCALIZADOR DE LOJAS--
+
+        <br><br>
+
+        <div class="centralizar">
+
+            <h2>Conheça nossas Lojas:</h2>
+
+            <form>
+                <select name="Estado">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                </select>
+            </form>
+
+            <form>
+                <select name="Cidade">
+                <option value="Sao">São Paulo</option>
+                <option value="Cam">Campinas</option>
+                <option value="Rio">Rio de Janeiro</option>
+                <option value="Nit">Niterói</option>
+                </select>
+            </form>
+            
+            <form>
+                <input type="submit" value="Pesquisar Lojas"/>
+            </form>  
+
+        </div>
+
+        <br><br>
+
+        --REDES--
+
+        <div class="centralizar">
+
+            <h2>Veja novidades nas nossas Redes:</h2>
+
+            <ul>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.tiktok.com">Tik Tok</a></li>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+            </ul>
+
+        </div>
+
+        --RODAPÉ--
+
+        <br><br>
+        <hr/>
+        <footer class="footer">2022 Gabs & Gus Foods - Todos os direitos reservados</footer>
+
+    //-->
+
+</body>
+
+</html>
